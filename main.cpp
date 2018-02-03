@@ -1,8 +1,8 @@
 #include <QCoreApplication>
-#include <iostream>
+#include "server.h"
 int main(int argc, char *argv[])
 {
     QCoreApplication a(argc, argv);
-    std::cout<<"Start server..."<<std::endl;
+    Server _server;
     return a.exec();
 }
